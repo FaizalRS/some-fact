@@ -1,0 +1,51 @@
+body
+{
+	background-image: url("gambar.png");
+	background-size: contain;
+	font-family: century gothic;
+}
+.box
+{
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	border-radius: 40px;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+.putri
+{
+	border-radius: 100%;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	transition: 5s;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+
+}
+.putri:hover
+{
+	transform: rotateZ(720deg);
+}
+.click h1
+{
+	background: #ff0e3b;
+	color: #fff;
+	border-radius: 15px;
+	padding: 5px 10px 5px 10px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	width: 75%;
+	margin-left: 10%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}

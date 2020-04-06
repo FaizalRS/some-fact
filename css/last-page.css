@@ -1,0 +1,59 @@
+body
+{
+	background-image: url("gambar.png");
+	background-size: contain;
+	font-family: century gothic;
+}
+.box
+{
+	position: absolute;
+	width: 350px;
+	height: 465px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	border-radius: 40px;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+.content
+{
+	margin-top: 15px;
+}
+.content p
+{
+	color: #000;
+	background: #3460ff;
+	text-align: center;
+	padding: 7px 10px 7px 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.me
+{
+	border-radius: 100%;
+	width: 250px;
+	height: 250px;
+	text-align: center;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+.arrow
+{
+	margin-top: 30px;
+}
+.arrow a
+{
+	text-decoration: none;
+	background: #ff0e3b;
+	color: #fff;
+	padding: 5px 20px 5px 20px;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.4);
+}
